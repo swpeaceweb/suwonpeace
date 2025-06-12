@@ -9,7 +9,6 @@ fetch('assets/events.json')
                     <h4>${event.title}</h4>
                     <p>${event.date}</p>
                     <p>${event.description}</p>
-                    <p>${event.image}</p>
                 </div>
             `;
         });
