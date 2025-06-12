@@ -1,7 +1,12 @@
 body { font-family: 'Noto Sans KR', sans-serif; scroll-behavior: smooth;}
 section { padding: 60px 0; }
 nav { background-color: #f8f9fa; }
-.hero { background-color: #e3f2fd; padding: 100px 0; text-align: center; }
+.hero { 
+    background-color: #e3f2fd; padding: 100px 0; text-align: center;
+    background-image: url('../assets/images/peacestatus_n.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+ }
 img {
   width: 100%;
   height: auto;
