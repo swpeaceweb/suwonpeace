@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수원평화나비</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body { scroll-behavior: smooth; }
+        section { padding: 60px 0; }
+        nav { background-color: #f8f9fa; }
+        .hero { background-color: #e3f2fd; padding: 100px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">수원평화나비</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">소개</a></li>
+                <li class="nav-item"><a class="nav-link" href="#donation">후원</a></li>
+                <li class="nav-item"><a class="nav-link" href="#events">행사</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <h1 class="display-4">수원평화나비</h1>
+        <p class="lead">평화를 기억하고 행동하는 시민 연대</p>
+    </div>
+</section>
+
+<section id="about" class="container text-center">
+    <h2>단체 소개</h2>
+    <p>수원평화나비는 인권과 평화를 위해 활동하는 시민 단체입니다. 평화 운동, 인권 교육, 다양한 시민 연대 활동을 진행하고 있습니다.</p>
+</section>
+
+<section id="donation" class="container text-center">
+    <h2>후원 계좌</h2>
+    <p>국민은행 123456-78-901234 (수원평화나비)</p>
+    <img src="assets/images/donation_qr.png" alt="후원 QR코드" style="max-width: 200px;">
+    <div class="mt-4">
+        <a href="https://qr.kakao.com/talk/정기송금링크" class="btn btn-warning" target="_blank">카카오 송금</a>
+        <a href="https://new-m.pay.naver.com/send?targetId=수신자ID" class="btn btn-success ms-2" target="_blank">네이버 송금</a>
+    </div>
+</section>
+
+<section id="events" class="container text-center">
+    <h2>이달의 행사</h2>
+    <div id="event-list">
+        <p>행사 정보가 업데이트 중입니다.</p>
+    </div>
+</section>
+
+<footer class="text-center py-4">
+    <p>&copy; 2025 수원평화나비. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/events.js"></script>
+</body>
+</html>
